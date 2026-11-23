@@ -1,0 +1,481 @@
+seed,seen_fraction,matrix,group,max_abs_residual,columns
+1,0.1,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+1,0.1,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,0.1,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+1,0.1,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+2,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+2,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+3,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+3,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.1,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+4,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.1,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.1,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+4,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.1,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.1,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+7,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.1,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+7,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.1,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+8,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.1,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+8,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.1,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.1,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+10,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+10,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.1,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.1,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.1,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+12,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.1,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+12,0.1,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+13,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.1,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+13,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.1,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.1,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+14,0.1,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.1,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.1,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+14,0.1,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.1,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.1,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.1,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.1,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+16,0.1,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.1,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.1,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+16,0.1,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.1,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.1,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+17,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.1,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+17,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.1,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+19,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.1,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+19,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.1,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+20,0.1,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.1,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.1,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+20,0.1,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.1,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+1,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.25,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+1,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.25,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.25,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+2,0.25,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.25,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.25,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+2,0.25,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.25,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.25,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+3,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.25,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+3,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+4,0.25,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+4,0.25,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.25,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.25,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.25,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.25,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+7,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+7,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+8,0.25,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+8,0.25,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+10,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+10,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+12,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+12,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.25,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+13,0.25,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.25,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.25,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+13,0.25,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.25,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+14,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+14,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.25,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+16,0.25,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.25,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+16,0.25,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+17,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+17,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.25,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.25,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.25,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.25,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+19,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.25,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+19,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.25,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.25,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+20,0.25,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.25,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.25,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+20,0.25,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.25,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+1,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+1,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+2,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.5,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+2,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,0.5,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+3,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.5,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+3,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,0.5,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+4,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.5,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+4,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,0.5,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+5,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+6,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+7,0.5,X_seen_aug,weathersit,4.440892098500626e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.5,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+7,0.5,X_all_aug,weathersit,4.440892098500626e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,0.5,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+8,0.5,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+8,0.5,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.5,X_seen_aug,weekday,4.440892098500626e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+9,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,0.5,X_all_aug,weekday,4.440892098500626e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.5,X_seen_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+10,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.5,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,0.5,X_all_aug,season,1.1102230246251565e-16,season_1 season_2 season_3 season_4
+10,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,0.5,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+11,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+12,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+12,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+13,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.5,X_seen_aug,weekday,4.440892098500626e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+13,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,0.5,X_all_aug,weekday,4.440892098500626e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+14,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+14,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.5,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.5,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+15,0.5,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,0.5,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+16,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.5,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+16,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,0.5,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+17,0.5,X_seen_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+17,0.5,X_all_aug,weathersit,2.220446049250313e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.5,X_seen_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.5,X_seen_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.5,X_seen_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,0.5,X_all_aug,season,0.0,season_1 season_2 season_3 season_4
+18,0.5,X_all_aug,weathersit,1.1102230246251565e-16,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,0.5,X_all_aug,weekday,2.220446049250313e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.5,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+19,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.5,X_seen_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,0.5,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+19,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,0.5,X_all_aug,weekday,0.0,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.5,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+20,0.5,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.5,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,0.5,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+20,0.5,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,0.5,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+1,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+1,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+1,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+1,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+2,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+2,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+2,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+2,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+3,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+3,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+3,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+3,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+4,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+4,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+4,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+4,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+5,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+5,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+5,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+5,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+6,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+6,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+6,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+6,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+7,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+7,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+7,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+7,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+8,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+8,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+8,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+8,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+9,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+9,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+9,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+9,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+10,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+10,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+10,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+10,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+11,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+11,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+11,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+11,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+12,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+12,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+12,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+12,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+13,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+13,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+13,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+13,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+14,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+14,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+14,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+14,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+15,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+15,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+15,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+15,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+16,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+16,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+16,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+16,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+17,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+17,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+17,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+17,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+18,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+18,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+18,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+18,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+19,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+19,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+19,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+19,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,1.0,X_seen_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+20,1.0,X_seen_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,1.0,X_seen_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6
+20,1.0,X_all_aug,season,2.220446049250313e-16,season_1 season_2 season_3 season_4
+20,1.0,X_all_aug,weathersit,0.0,weathersit_1 weathersit_2 weathersit_3 weathersit_4
+20,1.0,X_all_aug,weekday,1.1102230246251565e-16,weekday_0 weekday_1 weekday_2 weekday_3 weekday_4 weekday_5 weekday_6

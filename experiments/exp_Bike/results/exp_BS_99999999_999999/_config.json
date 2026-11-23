@@ -1,0 +1,47 @@
+{
+  "experiment": "exp_Bike",
+  "granularity": "hour",
+  "feature_encoding": "full_design",
+  "features_manifest": "/Users/michal/Documents/magisterska/curr/arbitdim8/experiments/exp_Bike/results/exp_BS_20261118_165138/designs/features.json",
+  "seen_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "gossip_modes": [
+    "full"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "steps": 1000000,
+  "p_aug": 24,
+  "cond_threshold": 1e+18,
+  "checkpoint_every": 5000,
+  "progress_every": 5000,
+  "stop_on_theta_change": false,
+  "data_dir": "/Users/michal/Documents/magisterska/curr/arbitdim8/experiments/exp_Bike/results/exp_BS_20261118_165138/designs",
+  "objective_reference": "centralized np.linalg.lstsq on matching seen/all design matrix",
+  "communication_cost_full": 648,
+  "communication_cost_coordinate": 2
+}

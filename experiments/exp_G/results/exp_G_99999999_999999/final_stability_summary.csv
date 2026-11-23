@@ -1,0 +1,2 @@
+method,n_runs,n_full_100_percent,n_below_100_percent,n_unknown,fraction_full_among_known,mean_final_stable_fraction,mean_final_Etheta_full,mean_final_Etheta_below,n_finite_Etheta_full,n_finite_Etheta_below
+gossip,20,20,0,0,1.0,1.0,9.394669783123643e-12,,20,0

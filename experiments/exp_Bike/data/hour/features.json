@@ -1,0 +1,29 @@
+{
+  "raw_source": "/Users/michal/Documents/magisterska/curr/arbitdim8/experiments/exp_Bike/data/raw/hour.csv",
+  "feature_names": [
+    "yr",
+    "hr",
+    "holiday",
+    "workingday",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed",
+    "season_1",
+    "season_2",
+    "season_3",
+    "season_4",
+    "weathersit_1",
+    "weathersit_2",
+    "weathersit_3",
+    "weathersit_4",
+    "weekday_0",
+    "weekday_1",
+    "weekday_2",
+    "weekday_3",
+    "weekday_4",
+    "weekday_5",
+    "weekday_6"
+  ],
+  "intercept_appended_in_simulation": true
+}

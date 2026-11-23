@@ -1,0 +1,13 @@
+seen,mode,status,count,total_runs,fraction_of_runs,mean_final_Etheta,std_final_Etheta,mean_final_usable_fraction
+0.1,full,full_100_percent,6,20,0.3,1.5972424309918438,1.577876578445706,1.0
+0.1,full,below_100_percent,14,20,0.7,,,0.0
+0.1,full,unknown,0,20,0.0,,,
+0.25,full,full_100_percent,13,20,0.65,5.5641488095679374,9.761202589148642,1.0
+0.25,full,below_100_percent,7,20,0.35,,,0.0
+0.25,full,unknown,0,20,0.0,,,
+0.5,full,full_100_percent,16,20,0.8,6.336643151748846,9.500987442703956,1.0
+0.5,full,below_100_percent,4,20,0.2,,,0.0
+0.5,full,unknown,0,20,0.0,,,
+1.0,full,full_100_percent,0,20,0.0,,,
+1.0,full,below_100_percent,20,20,1.0,111488331535845.12,357040207937010.44,0.9360435007767995
+1.0,full,unknown,0,20,0.0,,,

@@ -1,0 +1,31 @@
+{
+  "seed": 15,
+  "steps": 1000000,
+  "mode": "full",
+  "n_agents": 4344,
+  "p_aug": 24,
+  "n_stable": 4344,
+  "n_finite_eligible": 4344,
+  "final_stable_fraction": 1.0,
+  "objective_usable_fraction": 1.0,
+  "rel_error_seen": 0.375484617059267,
+  "rel_error_global": 0.37704956183008165,
+  "Seen": {
+    "RMSE": 139.93119725604893,
+    "MAE": 105.41222458907494,
+    "R2": 0.3926018401199546
+  },
+  "Unseen": {
+    "RMSE": 141.02109148977686,
+    "MAE": 105.33518642971816,
+    "R2": 0.39953765749561176
+  },
+  "central_min_seen": 85058734.41018097,
+  "central_min_all": 343739242.79637694,
+  "agent_sse_mean_seen": 85058734.41018097,
+  "objective_gap_mean_seen": 0.0,
+  "objective_ratio_mean_seen": 1.0,
+  "agent_sse_mean_all": 344285104.78334004,
+  "objective_gap_mean_all": 545861.9869630933,
+  "objective_ratio_mean_all": 1.0015880118386322
+}

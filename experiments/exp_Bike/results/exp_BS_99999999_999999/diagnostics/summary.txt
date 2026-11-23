@@ -1,0 +1,410 @@
+Bike Sharing diagnostics for /Users/michal/Documents/magisterska/curr/arbitdim8/experiments/exp_Bike/results/exp_BS_20261118_165138
+Numerical eligibility uses spectral condition threshold and successful solve.
+Objective results omit nonfinite or ineligible agent solutions, and report usable fraction.
+All objectives compare against centralized OLS on the SAME design matrix.
+
+Design ranks and condition numbers:
+  seen=0.10 seed=1 X_seen_aug: rank=19/24, cond=4.46e+16
+  seen=0.10 seed=1 X_all_aug: rank=20/24, cond=4.317e+15
+  seen=0.10 seed=2 X_seen_aug: rank=19/24, cond=1.122e+17
+  seen=0.10 seed=2 X_all_aug: rank=20/24, cond=7.502e+15
+  seen=0.10 seed=3 X_seen_aug: rank=20/24, cond=8.911e+15
+  seen=0.10 seed=3 X_all_aug: rank=20/24, cond=3.204e+15
+  seen=0.10 seed=4 X_seen_aug: rank=19/24, cond=1.116e+17
+  seen=0.10 seed=4 X_all_aug: rank=20/24, cond=3.877e+15
+  seen=0.10 seed=5 X_seen_aug: rank=20/24, cond=6.578e+15
+  seen=0.10 seed=5 X_all_aug: rank=20/24, cond=3.341e+15
+  seen=0.10 seed=6 X_seen_aug: rank=19/24, cond=9.588e+16
+  seen=0.10 seed=6 X_all_aug: rank=20/24, cond=6.532e+15
+  seen=0.10 seed=7 X_seen_aug: rank=20/24, cond=9.877e+15
+  seen=0.10 seed=7 X_all_aug: rank=20/24, cond=2.411e+15
+  seen=0.10 seed=8 X_seen_aug: rank=19/24, cond=1.612e+17
+  seen=0.10 seed=8 X_all_aug: rank=20/24, cond=8.268e+15
+  seen=0.10 seed=9 X_seen_aug: rank=19/24, cond=2.545e+17
+  seen=0.10 seed=9 X_all_aug: rank=20/24, cond=2.776e+15
+  seen=0.10 seed=10 X_seen_aug: rank=19/24, cond=6.853e+16
+  seen=0.10 seed=10 X_all_aug: rank=20/24, cond=8.948e+15
+  seen=0.10 seed=11 X_seen_aug: rank=19/24, cond=2.022e+17
+  seen=0.10 seed=11 X_all_aug: rank=20/24, cond=7.454e+15
+  seen=0.10 seed=12 X_seen_aug: rank=19/24, cond=9.92e+16
+  seen=0.10 seed=12 X_all_aug: rank=20/24, cond=3.271e+15
+  seen=0.10 seed=13 X_seen_aug: rank=19/24, cond=8.164e+16
+  seen=0.10 seed=13 X_all_aug: rank=20/24, cond=7.468e+15
+  seen=0.10 seed=14 X_seen_aug: rank=19/24, cond=2.035e+17
+  seen=0.10 seed=14 X_all_aug: rank=20/24, cond=3.92e+15
+  seen=0.10 seed=15 X_seen_aug: rank=20/24, cond=1.452e+16
+  seen=0.10 seed=15 X_all_aug: rank=20/24, cond=4.25e+15
+  seen=0.10 seed=16 X_seen_aug: rank=19/24, cond=1.175e+17
+  seen=0.10 seed=16 X_all_aug: rank=20/24, cond=4.149e+15
+  seen=0.10 seed=17 X_seen_aug: rank=19/24, cond=2.627e+17
+  seen=0.10 seed=17 X_all_aug: rank=20/24, cond=7.401e+15
+  seen=0.10 seed=18 X_seen_aug: rank=19/24, cond=3.291e+17
+  seen=0.10 seed=18 X_all_aug: rank=20/24, cond=1.324e+16
+  seen=0.10 seed=19 X_seen_aug: rank=20/24, cond=7.098e+15
+  seen=0.10 seed=19 X_all_aug: rank=20/24, cond=4.935e+15
+  seen=0.10 seed=20 X_seen_aug: rank=20/24, cond=9.006e+15
+  seen=0.10 seed=20 X_all_aug: rank=20/24, cond=2.875e+15
+  seen=0.25 seed=1 X_seen_aug: rank=20/24, cond=4.999e+15
+  seen=0.25 seed=1 X_all_aug: rank=20/24, cond=5.025e+15
+  seen=0.25 seed=2 X_seen_aug: rank=19/24, cond=3.271e+17
+  seen=0.25 seed=2 X_all_aug: rank=20/24, cond=5.054e+15
+  seen=0.25 seed=3 X_seen_aug: rank=20/24, cond=8.542e+15
+  seen=0.25 seed=3 X_all_aug: rank=20/24, cond=4.28e+15
+  seen=0.25 seed=4 X_seen_aug: rank=20/24, cond=5.98e+15
+  seen=0.25 seed=4 X_all_aug: rank=20/24, cond=4.098e+15
+  seen=0.25 seed=5 X_seen_aug: rank=20/24, cond=8.518e+15
+  seen=0.25 seed=5 X_all_aug: rank=20/24, cond=3.657e+15
+  seen=0.25 seed=6 X_seen_aug: rank=19/24, cond=2.423e+17
+  seen=0.25 seed=6 X_all_aug: rank=20/24, cond=5.753e+15
+  seen=0.25 seed=7 X_seen_aug: rank=20/24, cond=9.881e+15
+  seen=0.25 seed=7 X_all_aug: rank=20/24, cond=3.239e+15
+  seen=0.25 seed=8 X_seen_aug: rank=20/24, cond=5.949e+15
+  seen=0.25 seed=8 X_all_aug: rank=20/24, cond=2.484e+15
+  seen=0.25 seed=9 X_seen_aug: rank=20/24, cond=5.268e+15
+  seen=0.25 seed=9 X_all_aug: rank=20/24, cond=8.381e+15
+  seen=0.25 seed=10 X_seen_aug: rank=19/24, cond=4.275e+17
+  seen=0.25 seed=10 X_all_aug: rank=20/24, cond=1.079e+16
+  seen=0.25 seed=11 X_seen_aug: rank=19/24, cond=6.777e+16
+  seen=0.25 seed=11 X_all_aug: rank=20/24, cond=5.935e+15
+  seen=0.25 seed=12 X_seen_aug: rank=20/24, cond=8.341e+15
+  seen=0.25 seed=12 X_all_aug: rank=20/24, cond=2.509e+15
+  seen=0.25 seed=13 X_seen_aug: rank=19/24, cond=2.035e+17
+  seen=0.25 seed=13 X_all_aug: rank=20/24, cond=3.894e+15
+  seen=0.25 seed=14 X_seen_aug: rank=19/24, cond=1.828e+17
+  seen=0.25 seed=14 X_all_aug: rank=20/24, cond=8.836e+15
+  seen=0.25 seed=15 X_seen_aug: rank=20/24, cond=1.034e+16
+  seen=0.25 seed=15 X_all_aug: rank=20/24, cond=6.347e+15
+  seen=0.25 seed=16 X_seen_aug: rank=20/24, cond=5.135e+15
+  seen=0.25 seed=16 X_all_aug: rank=20/24, cond=3.096e+15
+  seen=0.25 seed=17 X_seen_aug: rank=20/24, cond=1.939e+16
+  seen=0.25 seed=17 X_all_aug: rank=20/24, cond=6.542e+15
+  seen=0.25 seed=18 X_seen_aug: rank=19/24, cond=9.342e+17
+  seen=0.25 seed=18 X_all_aug: rank=20/24, cond=3.28e+15
+  seen=0.25 seed=19 X_seen_aug: rank=20/24, cond=6.013e+15
+  seen=0.25 seed=19 X_all_aug: rank=20/24, cond=6.611e+15
+  seen=0.25 seed=20 X_seen_aug: rank=20/24, cond=4.945e+15
+  seen=0.25 seed=20 X_all_aug: rank=20/24, cond=1.099e+16
+  seen=0.50 seed=1 X_seen_aug: rank=20/24, cond=1.19e+16
+  seen=0.50 seed=1 X_all_aug: rank=20/24, cond=3.458e+15
+  seen=0.50 seed=2 X_seen_aug: rank=20/24, cond=5.357e+15
+  seen=0.50 seed=2 X_all_aug: rank=20/24, cond=3.286e+15
+  seen=0.50 seed=3 X_seen_aug: rank=20/24, cond=8.861e+15
+  seen=0.50 seed=3 X_all_aug: rank=20/24, cond=4.694e+15
+  seen=0.50 seed=4 X_seen_aug: rank=20/24, cond=7.103e+15
+  seen=0.50 seed=4 X_all_aug: rank=20/24, cond=2.195e+15
+  seen=0.50 seed=5 X_seen_aug: rank=20/24, cond=3.947e+15
+  seen=0.50 seed=5 X_all_aug: rank=20/24, cond=3.144e+15
+  seen=0.50 seed=6 X_seen_aug: rank=19/24, cond=9.091e+17
+  seen=0.50 seed=6 X_all_aug: rank=20/24, cond=8.258e+15
+  seen=0.50 seed=7 X_seen_aug: rank=20/24, cond=1.307e+16
+  seen=0.50 seed=7 X_all_aug: rank=20/24, cond=2.792e+15
+  seen=0.50 seed=8 X_seen_aug: rank=20/24, cond=8.869e+15
+  seen=0.50 seed=8 X_all_aug: rank=20/24, cond=6.491e+15
+  seen=0.50 seed=9 X_seen_aug: rank=20/24, cond=4.805e+15
+  seen=0.50 seed=9 X_all_aug: rank=20/24, cond=2.864e+15
+  seen=0.50 seed=10 X_seen_aug: rank=20/24, cond=3.868e+15
+  seen=0.50 seed=10 X_all_aug: rank=20/24, cond=3.642e+15
+  seen=0.50 seed=11 X_seen_aug: rank=20/24, cond=4.823e+15
+  seen=0.50 seed=11 X_all_aug: rank=20/24, cond=2.883e+15
+  seen=0.50 seed=12 X_seen_aug: rank=20/24, cond=5.101e+15
+  seen=0.50 seed=12 X_all_aug: rank=20/24, cond=3.637e+15
+  seen=0.50 seed=13 X_seen_aug: rank=19/24, cond=3e+17
+  seen=0.50 seed=13 X_all_aug: rank=20/24, cond=4.041e+15
+  seen=0.50 seed=14 X_seen_aug: rank=19/24, cond=5.329e+17
+  seen=0.50 seed=14 X_all_aug: rank=20/24, cond=3.221e+15
+  seen=0.50 seed=15 X_seen_aug: rank=20/24, cond=3.172e+15
+  seen=0.50 seed=15 X_all_aug: rank=20/24, cond=2.511e+15
+  seen=0.50 seed=16 X_seen_aug: rank=20/24, cond=4.033e+15
+  seen=0.50 seed=16 X_all_aug: rank=20/24, cond=3.058e+15
+  seen=0.50 seed=17 X_seen_aug: rank=20/24, cond=9.574e+15
+  seen=0.50 seed=17 X_all_aug: rank=20/24, cond=5.474e+15
+  seen=0.50 seed=18 X_seen_aug: rank=20/24, cond=7.382e+15
+  seen=0.50 seed=18 X_all_aug: rank=20/24, cond=2.899e+15
+  seen=0.50 seed=19 X_seen_aug: rank=20/24, cond=8.039e+15
+  seen=0.50 seed=19 X_all_aug: rank=20/24, cond=4.56e+15
+  seen=0.50 seed=20 X_seen_aug: rank=20/24, cond=6.345e+15
+  seen=0.50 seed=20 X_all_aug: rank=20/24, cond=9.736e+15
+  seen=1.00 seed=1 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=1 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=2 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=2 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=3 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=3 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=4 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=4 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=5 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=5 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=6 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=6 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=7 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=7 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=8 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=8 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=9 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=9 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=10 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=10 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=11 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=11 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=12 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=12 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=13 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=13 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=14 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=14 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=15 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=15 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=16 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=16 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=17 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=17 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=18 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=18 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=19 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=19 X_all_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=20 X_seen_aug: rank=20/24, cond=4.867e+15
+  seen=1.00 seed=20 X_all_aug: rank=20/24, cond=4.867e+15
+
+Centralized minima (squared residuals):
+  seen=0.10 seed=1 Z=seen, min ||Z theta-y||² = 3.43828e+07
+  seen=0.10 seed=1 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=2 Z=seen, min ||Z theta-y||² = 3.29961e+07
+  seen=0.10 seed=2 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=3 Z=seen, min ||Z theta-y||² = 3.43812e+07
+  seen=0.10 seed=3 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=4 Z=seen, min ||Z theta-y||² = 3.48931e+07
+  seen=0.10 seed=4 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=5 Z=seen, min ||Z theta-y||² = 3.13704e+07
+  seen=0.10 seed=5 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=6 Z=seen, min ||Z theta-y||² = 3.34272e+07
+  seen=0.10 seed=6 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=7 Z=seen, min ||Z theta-y||² = 3.37869e+07
+  seen=0.10 seed=7 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=8 Z=seen, min ||Z theta-y||² = 3.26753e+07
+  seen=0.10 seed=8 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=9 Z=seen, min ||Z theta-y||² = 3.62655e+07
+  seen=0.10 seed=9 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=10 Z=seen, min ||Z theta-y||² = 3.58332e+07
+  seen=0.10 seed=10 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=11 Z=seen, min ||Z theta-y||² = 3.20018e+07
+  seen=0.10 seed=11 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=12 Z=seen, min ||Z theta-y||² = 3.55327e+07
+  seen=0.10 seed=12 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=13 Z=seen, min ||Z theta-y||² = 3.2303e+07
+  seen=0.10 seed=13 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=14 Z=seen, min ||Z theta-y||² = 3.44506e+07
+  seen=0.10 seed=14 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=15 Z=seen, min ||Z theta-y||² = 3.54322e+07
+  seen=0.10 seed=15 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=16 Z=seen, min ||Z theta-y||² = 3.16278e+07
+  seen=0.10 seed=16 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=17 Z=seen, min ||Z theta-y||² = 3.32342e+07
+  seen=0.10 seed=17 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=18 Z=seen, min ||Z theta-y||² = 3.24323e+07
+  seen=0.10 seed=18 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=19 Z=seen, min ||Z theta-y||² = 3.65834e+07
+  seen=0.10 seed=19 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.10 seed=20 Z=seen, min ||Z theta-y||² = 3.15955e+07
+  seen=0.10 seed=20 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=1 Z=seen, min ||Z theta-y||² = 8.45636e+07
+  seen=0.25 seed=1 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=2 Z=seen, min ||Z theta-y||² = 8.24802e+07
+  seen=0.25 seed=2 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=3 Z=seen, min ||Z theta-y||² = 8.39613e+07
+  seen=0.25 seed=3 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=4 Z=seen, min ||Z theta-y||² = 8.78989e+07
+  seen=0.25 seed=4 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=5 Z=seen, min ||Z theta-y||² = 8.16495e+07
+  seen=0.25 seed=5 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=6 Z=seen, min ||Z theta-y||² = 8.2213e+07
+  seen=0.25 seed=6 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=7 Z=seen, min ||Z theta-y||² = 8.30777e+07
+  seen=0.25 seed=7 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=8 Z=seen, min ||Z theta-y||² = 8.21553e+07
+  seen=0.25 seed=8 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=9 Z=seen, min ||Z theta-y||² = 8.86347e+07
+  seen=0.25 seed=9 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=10 Z=seen, min ||Z theta-y||² = 8.52313e+07
+  seen=0.25 seed=10 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=11 Z=seen, min ||Z theta-y||² = 8.34847e+07
+  seen=0.25 seed=11 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=12 Z=seen, min ||Z theta-y||² = 8.2325e+07
+  seen=0.25 seed=12 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=13 Z=seen, min ||Z theta-y||² = 8.2661e+07
+  seen=0.25 seed=13 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=14 Z=seen, min ||Z theta-y||² = 8.46226e+07
+  seen=0.25 seed=14 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=15 Z=seen, min ||Z theta-y||² = 8.50587e+07
+  seen=0.25 seed=15 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=16 Z=seen, min ||Z theta-y||² = 8.48634e+07
+  seen=0.25 seed=16 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=17 Z=seen, min ||Z theta-y||² = 8.51647e+07
+  seen=0.25 seed=17 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=18 Z=seen, min ||Z theta-y||² = 8.3462e+07
+  seen=0.25 seed=18 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=19 Z=seen, min ||Z theta-y||² = 8.84468e+07
+  seen=0.25 seed=19 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.25 seed=20 Z=seen, min ||Z theta-y||² = 8.16345e+07
+  seen=0.25 seed=20 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=1 Z=seen, min ||Z theta-y||² = 1.66499e+08
+  seen=0.50 seed=1 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=2 Z=seen, min ||Z theta-y||² = 1.6804e+08
+  seen=0.50 seed=2 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=3 Z=seen, min ||Z theta-y||² = 1.7411e+08
+  seen=0.50 seed=3 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=4 Z=seen, min ||Z theta-y||² = 1.72558e+08
+  seen=0.50 seed=4 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=5 Z=seen, min ||Z theta-y||² = 1.67701e+08
+  seen=0.50 seed=5 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=6 Z=seen, min ||Z theta-y||² = 1.7051e+08
+  seen=0.50 seed=6 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=7 Z=seen, min ||Z theta-y||² = 1.71524e+08
+  seen=0.50 seed=7 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=8 Z=seen, min ||Z theta-y||² = 1.69239e+08
+  seen=0.50 seed=8 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=9 Z=seen, min ||Z theta-y||² = 1.74325e+08
+  seen=0.50 seed=9 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=10 Z=seen, min ||Z theta-y||² = 1.72803e+08
+  seen=0.50 seed=10 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=11 Z=seen, min ||Z theta-y||² = 1.7217e+08
+  seen=0.50 seed=11 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=12 Z=seen, min ||Z theta-y||² = 1.68332e+08
+  seen=0.50 seed=12 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=13 Z=seen, min ||Z theta-y||² = 1.70244e+08
+  seen=0.50 seed=13 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=14 Z=seen, min ||Z theta-y||² = 1.68798e+08
+  seen=0.50 seed=14 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=15 Z=seen, min ||Z theta-y||² = 1.71504e+08
+  seen=0.50 seed=15 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=16 Z=seen, min ||Z theta-y||² = 1.71553e+08
+  seen=0.50 seed=16 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=17 Z=seen, min ||Z theta-y||² = 1.70235e+08
+  seen=0.50 seed=17 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=18 Z=seen, min ||Z theta-y||² = 1.70099e+08
+  seen=0.50 seed=18 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=19 Z=seen, min ||Z theta-y||² = 1.74689e+08
+  seen=0.50 seed=19 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=0.50 seed=20 Z=seen, min ||Z theta-y||² = 1.74049e+08
+  seen=0.50 seed=20 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=1 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=1 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=2 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=2 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=3 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=3 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=4 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=4 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=5 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=5 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=6 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=6 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=7 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=7 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=8 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=8 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=9 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=9 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=10 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=10 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=11 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=11 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=12 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=12 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=13 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=13 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=14 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=14 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=15 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=15 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=16 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=16 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=17 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=17 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=18 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=18 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=19 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=19 Z=all, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=20 Z=seen, min ||Z theta-y||² = 3.43739e+08
+  seen=1.00 seed=20 Z=all, min ||Z theta-y||² = 3.43739e+08
+
+Final distributed-vs-centralized (mean eligible-agent SSE):
+  BS_Seen010_Modefull_seed1: stable=0.000, seen SSE=nan, central min=3.43828e+07, excess=nan
+  BS_Seen010_Modefull_seed10: stable=0.000, seen SSE=nan, central min=3.58332e+07, excess=nan
+  BS_Seen010_Modefull_seed11: stable=0.000, seen SSE=nan, central min=3.20018e+07, excess=nan
+  BS_Seen010_Modefull_seed12: stable=0.000, seen SSE=nan, central min=3.55327e+07, excess=nan
+  BS_Seen010_Modefull_seed13: stable=0.000, seen SSE=nan, central min=3.2303e+07, excess=nan
+  BS_Seen010_Modefull_seed14: stable=0.000, seen SSE=nan, central min=3.44506e+07, excess=nan
+  BS_Seen010_Modefull_seed15: stable=1.000, seen SSE=3.54322e+07, central min=3.54322e+07, excess=-7.45058e-09
+  BS_Seen010_Modefull_seed16: stable=0.000, seen SSE=nan, central min=3.16278e+07, excess=nan
+  BS_Seen010_Modefull_seed17: stable=0.000, seen SSE=nan, central min=3.32342e+07, excess=nan
+  BS_Seen010_Modefull_seed18: stable=0.000, seen SSE=nan, central min=3.24323e+07, excess=nan
+  BS_Seen010_Modefull_seed19: stable=1.000, seen SSE=3.65834e+07, central min=3.65834e+07, excess=7.45058e-09
+  BS_Seen010_Modefull_seed2: stable=0.000, seen SSE=nan, central min=3.29961e+07, excess=nan
+  BS_Seen010_Modefull_seed20: stable=1.000, seen SSE=3.15955e+07, central min=3.15955e+07, excess=7.45058e-09
+  BS_Seen010_Modefull_seed3: stable=1.000, seen SSE=3.43812e+07, central min=3.43812e+07, excess=7.45058e-09
+  BS_Seen010_Modefull_seed4: stable=0.000, seen SSE=nan, central min=3.48931e+07, excess=nan
+  BS_Seen010_Modefull_seed5: stable=1.000, seen SSE=3.13704e+07, central min=3.13704e+07, excess=0
+  BS_Seen010_Modefull_seed6: stable=0.000, seen SSE=nan, central min=3.34272e+07, excess=nan
+  BS_Seen010_Modefull_seed7: stable=1.000, seen SSE=3.37869e+07, central min=3.37869e+07, excess=0
+  BS_Seen010_Modefull_seed8: stable=0.000, seen SSE=nan, central min=3.26753e+07, excess=nan
+  BS_Seen010_Modefull_seed9: stable=0.000, seen SSE=nan, central min=3.62655e+07, excess=nan
+  BS_Seen025_Modefull_seed1: stable=1.000, seen SSE=8.45636e+07, central min=8.45636e+07, excess=8.9407e-08
+  BS_Seen025_Modefull_seed10: stable=0.000, seen SSE=nan, central min=8.52313e+07, excess=nan
+  BS_Seen025_Modefull_seed11: stable=0.000, seen SSE=nan, central min=8.34847e+07, excess=nan
+  BS_Seen025_Modefull_seed12: stable=1.000, seen SSE=8.2325e+07, central min=8.2325e+07, excess=-1.49012e-08
+  BS_Seen025_Modefull_seed13: stable=0.000, seen SSE=nan, central min=8.2661e+07, excess=nan
+  BS_Seen025_Modefull_seed14: stable=0.000, seen SSE=nan, central min=8.46226e+07, excess=nan
+  BS_Seen025_Modefull_seed15: stable=1.000, seen SSE=8.50587e+07, central min=8.50587e+07, excess=0
+  BS_Seen025_Modefull_seed16: stable=1.000, seen SSE=8.48634e+07, central min=8.48634e+07, excess=-1.49012e-08
+  BS_Seen025_Modefull_seed17: stable=1.000, seen SSE=8.51647e+07, central min=8.51647e+07, excess=1.49012e-08
+  BS_Seen025_Modefull_seed18: stable=0.000, seen SSE=nan, central min=8.3462e+07, excess=nan
+  BS_Seen025_Modefull_seed19: stable=1.000, seen SSE=8.84468e+07, central min=8.84468e+07, excess=0
+  BS_Seen025_Modefull_seed2: stable=0.000, seen SSE=nan, central min=8.24802e+07, excess=nan
+  BS_Seen025_Modefull_seed20: stable=1.000, seen SSE=8.16345e+07, central min=8.16345e+07, excess=0
+  BS_Seen025_Modefull_seed3: stable=1.000, seen SSE=8.39613e+07, central min=8.39613e+07, excess=0
+  BS_Seen025_Modefull_seed4: stable=1.000, seen SSE=8.78989e+07, central min=8.78989e+07, excess=-1.49012e-08
+  BS_Seen025_Modefull_seed5: stable=1.000, seen SSE=8.16495e+07, central min=8.16495e+07, excess=1.49012e-08
+  BS_Seen025_Modefull_seed6: stable=0.000, seen SSE=nan, central min=8.2213e+07, excess=nan
+  BS_Seen025_Modefull_seed7: stable=1.000, seen SSE=8.30777e+07, central min=8.30777e+07, excess=-1.49012e-08
+  BS_Seen025_Modefull_seed8: stable=1.000, seen SSE=8.21553e+07, central min=8.21553e+07, excess=1.49012e-08
+  BS_Seen025_Modefull_seed9: stable=1.000, seen SSE=8.86347e+07, central min=8.86347e+07, excess=-1.49012e-08
+  BS_Seen050_Modefull_seed1: stable=1.000, seen SSE=1.66499e+08, central min=1.66499e+08, excess=-3.87886e-08
+  BS_Seen050_Modefull_seed10: stable=1.000, seen SSE=1.72803e+08, central min=1.72803e+08, excess=3.12566e-08
+  BS_Seen050_Modefull_seed11: stable=1.000, seen SSE=1.7217e+08, central min=1.7217e+08, excess=-2.98023e-08
+  BS_Seen050_Modefull_seed12: stable=1.000, seen SSE=1.68332e+08, central min=1.68332e+08, excess=2.98023e-08
+  BS_Seen050_Modefull_seed13: stable=0.000, seen SSE=nan, central min=1.70244e+08, excess=nan
+  BS_Seen050_Modefull_seed14: stable=0.000, seen SSE=nan, central min=1.68798e+08, excess=nan
+  BS_Seen050_Modefull_seed15: stable=1.000, seen SSE=1.71504e+08, central min=1.71504e+08, excess=-2.98023e-08
+  BS_Seen050_Modefull_seed16: stable=1.000, seen SSE=1.71553e+08, central min=1.71553e+08, excess=2.98023e-08
+  BS_Seen050_Modefull_seed17: stable=1.000, seen SSE=1.70235e+08, central min=1.70235e+08, excess=-3.97524e-09
+  BS_Seen050_Modefull_seed18: stable=1.000, seen SSE=1.70099e+08, central min=1.70099e+08, excess=2.84338e-08
+  BS_Seen050_Modefull_seed19: stable=1.000, seen SSE=1.74689e+08, central min=1.74689e+08, excess=0
+  BS_Seen050_Modefull_seed2: stable=1.000, seen SSE=1.6804e+08, central min=1.6804e+08, excess=-2.98023e-08
+  BS_Seen050_Modefull_seed20: stable=1.000, seen SSE=1.74049e+08, central min=1.74049e+08, excess=0
+  BS_Seen050_Modefull_seed3: stable=1.000, seen SSE=1.7411e+08, central min=1.7411e+08, excess=-2.98023e-08
+  BS_Seen050_Modefull_seed4: stable=1.000, seen SSE=1.72558e+08, central min=1.72558e+08, excess=-5.84522e-08
+  BS_Seen050_Modefull_seed5: stable=1.000, seen SSE=1.67701e+08, central min=1.67701e+08, excess=0
+  BS_Seen050_Modefull_seed6: stable=0.000, seen SSE=nan, central min=1.7051e+08, excess=nan
+  BS_Seen050_Modefull_seed7: stable=0.000, seen SSE=nan, central min=1.71524e+08, excess=nan
+  BS_Seen050_Modefull_seed8: stable=1.000, seen SSE=1.69239e+08, central min=1.69239e+08, excess=1.07458e-08
+  BS_Seen050_Modefull_seed9: stable=1.000, seen SSE=1.74325e+08, central min=1.74325e+08, excess=-2.98023e-08
+  BS_Seen100_Modefull_seed1: stable=0.938, seen SSE=4.66791e+11, central min=3.43739e+08, excess=4.66447e+11
+  BS_Seen100_Modefull_seed10: stable=0.937, seen SSE=1.81745e+10, central min=3.43739e+08, excess=1.78308e+10
+  BS_Seen100_Modefull_seed11: stable=0.934, seen SSE=3.31776e+10, central min=3.43739e+08, excess=3.28339e+10
+  BS_Seen100_Modefull_seed12: stable=0.931, seen SSE=4.74721e+09, central min=3.43739e+08, excess=4.40347e+09
+  BS_Seen100_Modefull_seed13: stable=0.936, seen SSE=2.56004e+10, central min=3.43739e+08, excess=2.52567e+10
+  BS_Seen100_Modefull_seed14: stable=0.937, seen SSE=7.78841e+09, central min=3.43739e+08, excess=7.44467e+09
+  BS_Seen100_Modefull_seed15: stable=0.935, seen SSE=5.80641e+10, central min=3.43739e+08, excess=5.77203e+10
+  BS_Seen100_Modefull_seed16: stable=0.931, seen SSE=1.29235e+10, central min=3.43739e+08, excess=1.25798e+10
+  BS_Seen100_Modefull_seed17: stable=0.938, seen SSE=7.91771e+08, central min=3.43739e+08, excess=4.48032e+08
+  BS_Seen100_Modefull_seed18: stable=0.936, seen SSE=1.16839e+10, central min=3.43739e+08, excess=1.13402e+10
+  BS_Seen100_Modefull_seed19: stable=0.939, seen SSE=2.28473e+11, central min=3.43739e+08, excess=2.28129e+11
+  BS_Seen100_Modefull_seed2: stable=0.936, seen SSE=3.78873e+09, central min=3.43739e+08, excess=3.44499e+09
+  BS_Seen100_Modefull_seed20: stable=0.942, seen SSE=7.6871e+08, central min=3.43739e+08, excess=4.24971e+08
+  BS_Seen100_Modefull_seed3: stable=0.935, seen SSE=1.42365e+10, central min=3.43739e+08, excess=1.38927e+10
+  BS_Seen100_Modefull_seed4: stable=0.935, seen SSE=3.7466e+09, central min=3.43739e+08, excess=3.40286e+09
+  BS_Seen100_Modefull_seed5: stable=0.937, seen SSE=1.59656e+11, central min=3.43739e+08, excess=1.59312e+11
+  BS_Seen100_Modefull_seed6: stable=0.937, seen SSE=3.41941e+09, central min=3.43739e+08, excess=3.07567e+09
+  BS_Seen100_Modefull_seed7: stable=0.938, seen SSE=1.64696e+14, central min=3.43739e+08, excess=1.64696e+14
+  BS_Seen100_Modefull_seed8: stable=0.931, seen SSE=1.62303e+10, central min=3.43739e+08, excess=1.58865e+10
+  BS_Seen100_Modefull_seed9: stable=0.937, seen SSE=2.5683e+10, central min=3.43739e+08, excess=2.53392e+10

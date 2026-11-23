@@ -1,0 +1,23 @@
+{
+  "seed": 8,
+  "steps": 1000000,
+  "mode": "full",
+  "n_agents": 1737,
+  "p_aug": 24,
+  "n_stable": 0,
+  "n_finite_eligible": 0,
+  "final_stable_fraction": 0.0,
+  "objective_usable_fraction": 0.0,
+  "rel_error_seen": null,
+  "rel_error_global": null,
+  "Seen": null,
+  "Unseen": null,
+  "central_min_seen": 32675315.995074995,
+  "central_min_all": 343739242.79637694,
+  "agent_sse_mean_seen": null,
+  "objective_gap_mean_seen": null,
+  "objective_ratio_mean_seen": null,
+  "agent_sse_mean_all": null,
+  "objective_gap_mean_all": null,
+  "objective_ratio_mean_all": null
+}

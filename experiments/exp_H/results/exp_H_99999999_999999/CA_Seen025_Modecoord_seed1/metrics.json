@@ -1,0 +1,39 @@
+{
+  "steps": 1000000,
+  "final_stable_fraction": 0.13953488372093023,
+  "rel_error_seen": 0.5644408958110468,
+  "rel_error_global": 0.5642776409083889,
+  "Seen": {
+    "RMSE": 1.0152703437483068,
+    "MAE": 0.6236675033226942,
+    "R2": 0.2283833562675447
+  },
+  "Unseen": {
+    "RMSE": 1.1240219029522578,
+    "MAE": 0.6349376855888732,
+    "R2": 0.05013549679841389
+  },
+  "seed": 1,
+  "mode": "coordinate",
+  "seen_fraction": 0.25,
+  "n_seen": 5160,
+  "n_unseen": 15480,
+  "usable_agents": 720,
+  "cond_threshold": 50,
+  "checkpoint_every": 100,
+  "width": 1,
+  "target_unit_dollars": 100000,
+  "predictor": "mean of usable agent coefficient vectors",
+  "centralized": {
+    "Seen": {
+      "RMSE": 0.710469712658921,
+      "MAE": 0.520611108835847,
+      "R2": 0.6221413896349077
+    },
+    "Unseen": {
+      "RMSE": 0.7297024513258796,
+      "MAE": 0.529997918692329,
+      "R2": 0.5996832884403929
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 9,
+  "steps": 200000,
+  "interactions_completed": 25176,
+  "stop_reason": "all_inactive",
+  "final_stable_fraction": 1.0,
+  "Seen": {
+    "RMSE": 0.0975509719186061,
+    "MAE": 0.07691885091816449,
+    "R2": 0.9999996825064826
+  },
+  "rel_error_seen": 2.2957013293110937e-15,
+  "rel_error_global": 2.2957013293110937e-15
+}
