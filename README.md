@@ -23,11 +23,11 @@ Use an archived run to regenerate a thesis figure or table, or run an experiment
 Place each archived experiment folder under `experiments/`, preserving its `results/` tree. Run the line for the result of interest. The paths select the archived inputs even if a more recent run exists.
 
 ```sh
-python experiments/exp_B/analyze.py experiments/exp_B/results/exp_B_20261120_205519
-python experiments/exp_E/analyze.py experiments/exp_E/results/exp_E_20261120_205717
-python experiments/exp_F/analyze.py experiments/exp_F/results/exp_F_20261109_203534
-python experiments/exp_G/analyze.py experiments/exp_G/results/exp_G_20261120_205842_845873
-python experiments/exp_H/analyze.py experiments/exp_H/results/exp_H_20261118_162431
+python experiments/exp_B/analyze.py experiments/exp_B/results/exp_B_00000000_000000
+python experiments/exp_E/analyze.py experiments/exp_E/results/exp_E_00000000_000000
+python experiments/exp_F/analyze.py experiments/exp_F/results/exp_F_00000000_000000
+python experiments/exp_G/analyze.py experiments/exp_G/results/exp_G_00000000_000000_000000
+python experiments/exp_H/analyze.py experiments/exp_H/results/exp_H_00000000_000000
 ```
 
 ### Start from the data
